@@ -28,5 +28,7 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file Room-APP/pom.xml
+    - name: ExecuteJarfile
+      run: sudokill-9`sudolsof-t-i:8080`&sudojava-jar/home/ubuntu/actions-runner/_work/roomh2/roomh2/Room-APP/target/roomh2/roomh2/Room-APP/target/roomh2/roomh2/Room-APP/target/roomh2/roomh2/Room-APP/target/Room-APP-0.0.1-SNAPSHOT.jar &
 
    
